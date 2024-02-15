@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.headersection {
+  max-width: 100%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+a {
+  color: #ffb703;
+}
+a:hover {
+  color: #219ebc;
+}
+
+.slider {
+  height: 380px;
+  background-image: url(./assets/images/citysunrise01.jpg);
+  background-position-y: -200px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin-top: -21px;
+}
+.overlay1 {
+  background-color: #0000009e;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slogan {
+  color: #ffb703;
+}
+
+.main {
+  padding-bottom: 45px;
+}
+
+.inner_row1 {
+  display: flex;
+}
+.box {
+  margin: 20px 20px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  box-shadow: #219ebc82 0 0 5px 2px;
+  width: 30%;
+}
+
+.inner_row2 {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+}
+.side {
+  padding-right: 120px;
+  width: 45%;
+}
+
+@media (max-width: 1024px) {
+  .inner_row1 {
+    display: grid;
+  }
+  .box {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+
+  .inner_row2 {
+    display: block;
+  }
+  .side {
+    margin-top: 100px;
+  }
+
+  .slider {
+    background-image: url(./assets/images/citysunrise02.jpg);
+    background-position-y: 0px;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: #219ebc;
+  color: white;
+  padding: 40px 0px;
+  /* border-top: 2px solid black; */
+}
