@@ -69,11 +69,11 @@ a:hover {
 
 @media (max-width: 1024px) {
   .inner_row1 {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
   }
   .box {
     width: 100%;
-    display: block;
     text-align: justify;
   }
 
