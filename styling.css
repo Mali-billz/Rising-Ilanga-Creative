@@ -19,6 +19,9 @@ a {
 a:hover {
   color: #219ebc;
 }
+footer a:hover {
+  color: #ffb703;
+}
 
 .slider {
   height: 380px;
